@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+}
+.container-fluid{
+    text-align: center;
+}
+#banner{
+    background-image: url("../images/backgrounds/h_img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
+#start{
+    padding-top: 18%;
+    margin-bottom: 10%;
+}
