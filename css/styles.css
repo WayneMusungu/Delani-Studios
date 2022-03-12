@@ -20,3 +20,8 @@
 .container{
     text-align: center;
 }
+
+#about{
+    margin-top: auto;
+    margin-bottom: auto;
+}
