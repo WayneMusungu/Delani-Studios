@@ -5,7 +5,7 @@ $(document).ready(function(){
     });
 });
 //portifolio section 
-var projHovers = ['project1', 'project2', 'project3', 'project4', 'project5', 'project6', 'project7', 'project8']
+var projHovers = ['work1', 'work2', 'work3', 'work4', 'work5', 'work6', 'work7', 'work8']
 $(document).ready(function(){
     projHovers.forEach(function(projHover){
         $('#'+projHover).hover(

@@ -46,8 +46,8 @@
     text-align: center;
 }
 
-#project1, #project2, #project3, #project4,
- #project5, #project6, #project7, #project8{
+#work1, #work2, #work3, #work4,
+ #work5, #work6, #work7, #work8{
   width: 300px;
   height: 250px;
   background-size: cover;
@@ -67,28 +67,28 @@
  #projectsB{
   flex-direction: row;
  }
-#project1{
+#work1{
   background-image: url("../images/portfolio/work1.jpg");
 }
-#project2{
+#work2{
   background-image: url("..//images/portfolio/work2.jpg")
 }
-#project3{
+#work3{
   background-image: url("..//images/portfolio/work3.jpg");
 }
-#project4{
+#work4{
   background-image: url("..//images/portfolio/work4.jpg");
 }
-#project5{
+#work5{
   background-image: url("..//images/portfolio/work5.jpg");
 }
-#project6{
+#work6{
   background-image: url("..//images/portfolio/work6.jpg");
 }
-#project7{
+#work7{
   background-image: url("..//images/portfolio/work7.jpg");
 }
-#project8{
+#work8{
   background-image: url("..//images/portfolio/work8.jpg");
 }
 
