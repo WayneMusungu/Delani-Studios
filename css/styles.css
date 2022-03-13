@@ -42,85 +42,68 @@
     height: 65vh;
     
 }
-
-#WORK_A{
-    width:100vmax;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    cursor: cell;
-}
-#work1{
-    background-image: url("..//images/portfolio/work1.jpg");
-    width: 300px;
-    height: 250px;
-    background-size: cover;
-    margin-right: 1%;
-    margin-top: 2%;
-}
-#work2{
-    background-image: url("..//images/portfolio/work2.jpg");
-    width: 300px;
-    height: 250px;
-    background-size: cover;
-    margin-right: 1%;
-    margin-top: 2%;
+#portfolio{
+    text-align: center;
 }
 
-#work3{
-    background-image: url("..//images/portfolio/work3.jpg");
-    width: 300px;
-    height: 250px;
-    background-size: cover;
-    margin-right: 1%;
-    margin-top: 2%;
+#project1, #project2, #project3, #project4,
+ #project5, #project6, #project7, #project8{
+  width: 300px;
+  height: 250px;
+  background-size: cover;
+  margin-right: 1%;
+  margin-top: 2%;
+ }
+ #projectsA, #projectsB{
+   width: 96vw;
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   cursor: cell;
+ }
+ #projectsA{
+   flex-direction: row-reverse;
+ }
+ #projectsB{
+  flex-direction: row;
+ }
+#project1{
+  background-image: url("../images/portfolio/work1.jpg");
 }
-#work4{
-    background-image: url("..//images/portfolio/work4.jpg");
-    width: 300px;
-    height: 250px;
-    background-size: cover;
-    margin-right: 1%;
-    margin-top: 2%;
+#project2{
+  background-image: url("..//images/portfolio/work2.jpg")
 }
-#WORK_B{
-    width:100vmax;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    cursor: cell;
+#project3{
+  background-image: url("..//images/portfolio/work3.jpg");
 }
-#work5{
-    background-image: url("..//images/portfolio/work5.jpg");
-    width: 300px;
-    height: 250px;
-    background-size: cover;
-    margin-right: 1%;
-    margin-top: 2%;
+#project4{
+  background-image: url("..//images/portfolio/work4.jpg");
 }
-#work6{
-    background-image: url("..//images/portfolio/work6.jpg");
-    width: 300px;
-    height: 250px;
-    background-size: cover;
-    margin-right: 1%;
-    margin-top: 2%;
+#project5{
+  background-image: url("..//images/portfolio/work5.jpg");
 }
-#work7{
-    background-image: url("..//images/portfolio/work7.jpg");
-    width: 300px;
-    height: 250px;
-    background-size: cover;
-    margin-right: 1%;
-    margin-top: 2%;
+#project6{
+  background-image: url("..//images/portfolio/work6.jpg");
 }
-#work8{
-    background-image: url("..//images/portfolio/work8.jpg");
-    width: 300px;
-    height: 250px;
-    background-size: cover;
-    margin-right: 1%;
-    margin-top: 2%;
+#project7{
+  background-image: url("..//images/portfolio/work7.jpg");
+}
+#project8{
+  background-image: url("..//images/portfolio/work8.jpg");
+}
+
+.projName{
+    display: none;
+    background-color: rgba(255, 255, 255, 1);
+    box-sizing: border-box;
+    margin-top: 30%;
+    height: 60%;
+    text-align: center;
+    padding-top: 5%;
+    color: rgb(48, 26, 10);
+    font-size: x-large;
+    text-transform: capitalize;
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) .9ms;
 }
 .form-cont {
     text-align: center;
