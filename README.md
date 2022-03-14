@@ -1,7 +1,7 @@
 # DELANI STUDIO
 # Wayne Musungu
 
-- This is a website for fictional Delani studio, an entity that designs, develops and manages software. It is built using HTML, CSS and jQuery. It shows the projects done and name of project when the mouse cursor is moved upon it. It also uses bootstrap for some styling effect.
+- This is a website for  Delani studio, an entity that designs, develops and manages software. It is built using HTML, CSS and jQuery. It shows the projects done and name of project when the mouse cursor is moved upon it. It also uses bootstrap for some styling effect.
 
 ![LANDING PAGE](DELANI.jpg)
 
