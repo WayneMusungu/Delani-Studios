@@ -58,7 +58,7 @@
    display: flex;
    justify-content: center;
    flex-wrap: wrap;
-   cursor: cell;
+   cursor:pointer;
  }
  #projectsA{
    flex-direction: row-reverse;
@@ -135,4 +135,7 @@ h3{
   font-family: 'Shadows Into Light', cursive;
   font: size 60px;
   font-size: x-large;
+}
+.col-md-4{
+  cursor: pointer;
 }
