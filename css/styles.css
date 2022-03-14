@@ -123,3 +123,16 @@
 .hide{
     display: none;
 }
+h1{
+  font-family: 'Caveat', cursive;
+  font-size: x-large;
+}
+p{
+  font-family: 'Farsan', cursive;
+  font-size:x-large
+}
+h3{
+  font-family: 'Shadows Into Light', cursive;
+  font: size 60px;
+  font-size: x-large;
+}
