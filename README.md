@@ -3,7 +3,7 @@
 
 - This is a website for fictional Delani studio, an entity that designs, develops and manages software. It is built using HTML, CSS and jQuery. It shows projects done which reveals names and icons on the services offered which reveals details when clicked upon. It also uses bootstrap for some styling.
 
-![DELANI STUDIO LANDING PAGE](./images/backgrounds/Delani(Nest Hub Max).jpg)
+![DELANI STUDIO LANDING PAGE](/home/wayne/Documents/moringa-school-projects/Delani-Studio/images/backgrounds/Delani(Nest Hub Max).jpg)
 
 
 ## Technologies Used
