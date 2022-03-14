@@ -96,7 +96,7 @@
     color: rgb(48, 26, 10);
     font-size: x-large;
     text-transform: capitalize;
-    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) .9ms;
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) ;
 }
 .form-cont {
     text-align: center;
