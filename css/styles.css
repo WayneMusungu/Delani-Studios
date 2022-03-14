@@ -149,3 +149,6 @@ h3{
 body{
   background-color:bisque !important;
 }
+.mc-field-group{
+  text-align: center;
+}
