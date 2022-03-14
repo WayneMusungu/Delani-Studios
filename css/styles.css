@@ -2,19 +2,17 @@
     box-sizing: border-box;
 }
 
-.container-fluid{
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-}
-
 #banner{
     background-image: url("../images/backgrounds/h_img.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
     color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
+
 
 
 #start{
@@ -22,14 +20,12 @@
     margin-bottom: 10%;
 }
 
-.container{
-    text-align: center;
-}
 
 #about{
   padding: 4.5%;
-    margin-top: 50x;
-    margin-bottom: 50px;
+  margin-top: 50x;
+  margin-bottom: 50px;
+  text-align: center;
 }
 #services{
     background-image: url("../images/backgrounds/s_image.jpg");
@@ -39,6 +35,7 @@
     margin-bottom: 50px;
     padding-top: 180px;
     color: white;
+    text-align: center;
 }
 #portfolio{
     text-align: center;
@@ -118,6 +115,7 @@
 }
 #footer{
     margin-top: 25px;
+    text-align: center;
 }
 .hide{
     display: none;
@@ -137,4 +135,13 @@ h3{
 }
 .col-md-4{
   cursor: pointer;
+}
+#contact{
+  text-align: center;
+}
+#links{
+  text-align: center;
+}
+#what_we_do{
+  text-align: center;
 }
