@@ -35,7 +35,7 @@
     background-image: url("../images/backgrounds/s_image.jpg");
     background-size: cover;
     background-position: center;
-    position: relative;
+    position:relative;
     color: white;
     margin-bottom: 22px;
     width: 100%;
@@ -117,7 +117,6 @@
     height: 500px;
     background: url("..//images/backgrounds/c_image.jpg") no-repeat;
     margin-top: 2%;
-    
 }
 #footer{
     margin-top: 25px;

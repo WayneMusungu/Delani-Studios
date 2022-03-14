@@ -13,3 +13,12 @@ $(document).ready(function(){
           function(){$('#'+projHover+' p').fadeOut()})
       });
 });
+// Collecting user's input on the contact us form
+$(document).ready(function(){
+    $('button').click(function (cn) {
+        var client = document.getElementById('nameDetail').nodeValue;
+        alert("Dear" + " client" + " thank you for visiting our website. We have successfully received your message and we will get back to you. Incase of any other issue kindly feel free to contact us again.")
+        cn.preventDefault();
+    });
+
+});
