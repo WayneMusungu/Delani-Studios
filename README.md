@@ -19,7 +19,7 @@ Install git on your pc
 
 ##### Setup Instructions and Installation
 
-- Clone this repository to a location in your file system. ``
+- Clone this repository to a location in your file system. `git clone https://github.com/WayneMusungu/Delani-Studios.git`
 - Open terminal command line then navigate to the root folder of the application. `Delani-Studio`
 - Open `index.html` on your Browser.
 
@@ -46,7 +46,7 @@ If you find a bug (the website couldn't handle the query and or gave undesired r
 If you'd like to request a new function, feel free to do so by opening an issue here. Please include sample queries and their corresponding results.
 
 
-##### Link to Live Site : []
+##### Link to Live Site : [https://waynemusungu.github.io/Delani-Studios/]
 
 ### License
 
