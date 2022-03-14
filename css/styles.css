@@ -33,9 +33,8 @@
     background-image: url("../images/backgrounds/s_image.jpg");
     background-position: center;
     width: 100%;
-    height: 52vh;
-    margin-bottom: 50px;
-    padding-top: 140px;
+    height: 51.5vh;
+    padding-top: 10px;
     color: white;
     text-align: center;
 }
@@ -55,10 +54,10 @@
    flex-wrap: wrap;
    cursor:pointer;
  }
- #projectsA{
+ #projectsTop{
    flex-direction: row-reverse;
  }
- #projectsB{
+ #projectsBottom{
   flex-direction: row;
  }
 #work1{
