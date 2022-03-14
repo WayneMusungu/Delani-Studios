@@ -1,18 +1,15 @@
 # DELANI STUDIO
 # Wayne Musungu
 
-- This is a website for fictional Delani studio, an entity that designs, develops and manages software. It is built using HTML, CSS and jQuery. It shows projects done which reveals names and icons on the services offered which reveals details when clicked upon. It also uses bootstrap for some styling.
+- This is a website for fictional Delani studio, an entity that designs, develops and manages software. It is built using HTML, CSS and jQuery. It shows the projects done and name of project when the mouse cursor is moved upon it. It also uses bootstrap for some styling effect.
 
-![DELANI] (images/backgrounds/homepage.jpg)
+![LANDING PAGE](DELANI.jpg)
 
 
 ## Technologies Used
 
-- HTML CSS(Bootstrap) &  JQuery. Some additional tools used in this projects is MailChimp and google fonts  <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Farsan&family=Shadows+Into+Light&display=swap"
-      rel="stylesheet"/>
+- HTML CSS(Bootstrap) &  JQuery. Some additional tools used in this projects is MailChimp and google fonts 
+
 ## Behaviour Driven Development
 -This project shows the work done by Digital Studio it reveals the names of the work projects done when the mouse is hovered on the portfolio icons.
 
