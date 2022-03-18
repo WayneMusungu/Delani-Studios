@@ -4,7 +4,7 @@
 -This is a website created for Delani Studio, a company that deals with design, software development and project management. The website is responsive so it looks good in devices of different screen sizes. This website was built using HTML, CSS and jQuery. It shows the projects done and name of project when the mouse cursor is moved upon it. It also uses bootstrap for some styling effect and google fonts for styling the text.
 
 
-![LANDING PAGE](Delani-Studios.png)
+![LANDING PAGE]()
 
 
 ## Technologies Used
