@@ -6,7 +6,7 @@
 
 ![LANDING PAGE](DELANI-STUDIO.png)
 
-Delani-Studios.png
+
 ## Technologies Used
 
 - HTML CSS(Bootstrap) &  JQuery. Some additional tools used in this projects is MailChimp and google fonts 
