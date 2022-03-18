@@ -11,7 +11,7 @@ var projHovers = ['work1', 'work2', 'work3', 'work4', 'work5', 'work6', 'work7',
 $(document).ready(function(){
     projHovers.forEach(function(projHover){
         // Create a variable speed for fade
-        var speed=3000
+        var speed=2300
         $('#'+projHover).hover(
           function(){$('#'+projHover+' p').fadeIn(speed)},
           function(){$('#'+projHover+' p').fadeOut(speed)})
