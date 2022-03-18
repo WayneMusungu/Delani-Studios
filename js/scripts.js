@@ -18,11 +18,12 @@ $(document).ready(function(){
       });
 });
 // Collecting user's input on the contact us form
+//   alert pop
 $(document).ready(function(){
-    $('button').click(function (cn) {
-        var client = document.getElementById('nameDetail').nodeValue;
-        alert("Dear" + " client" + " thank you for visiting our website. We have successfully received your message and we will get back to you. Incase of any other issue kindly feel free to contact us again.")
-        cn.preventDefault();
+    let form = document.getElementById("mc-embedded-subscribe-form");
+    form.addEventListener("submit", (e) =>{
+        e.preventDefault
+        let name = document.getElementById("name").value;
+        alert(`${name} thank you for reaching out to us, we have received your message. Incase of any other issues kindly feel free to reach out to us`);
     });
-
-});
+})

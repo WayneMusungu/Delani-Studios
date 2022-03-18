@@ -1,3 +1,4 @@
+
 *{
     box-sizing: border-box;
     margin: 0%;
@@ -31,12 +32,12 @@
 }
 #services{
     background-image: url("../images/backgrounds/s_image.jpg");
-    background-position: center;
+    background-size: cover;
     width: 100%;
-    height: 51.5vh;
-    padding-top: 90px;
+    /* height: 70vh; */
     color: white;
     text-align: center;
+
 }
 
 #work1, #work2, #work3, #work4,
@@ -48,7 +49,14 @@
   margin-top: 2%;
  }
  #projectsTop, #projectsBottom{
-   width: 96vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 20px;
+
+   width: 100%;
    display: flex;
    justify-content: center;
    flex-wrap: wrap;
@@ -86,30 +94,77 @@
 }
 
 .projName{
-    display: none;
-    background-color: rgba(255, 255, 255, 1);
-    box-sizing: border-box;
-    margin-top: 30%;
-    height: 60%;
-    text-align: center;
-    padding-top: 5%;
-    color: rgb(48, 26, 10);
-    font-size: x-large;
-    text-transform: capitalize;
-    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) ;
+  padding-top: 5%;
+  text-align: center;
+  display: none;
+  padding: 50px;
+  height: 100%;
+  width: 100%;
+  color: white;
+  border: 25px solid white;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase; 
+  font-size: x-large;
+  text-transform: capitalize;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 20px;
+  box-sizing: border-box;
 }
-.form-cont {
-    text-align: center;
-    position: relative;
-    width: 700px;
-    max-width: 100%;
-    left: 50%;
-    transform: translate(-50%);
+.contact{
+  background-image: url("..//images/backgrounds/c_image.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-size: 18px;
+  text-align: center;
+  color: white;
+  height: 100%;
+  width: 100%;
+  margin-top: 50px;
 }
-.reach_us {
-    height: 500px;
-    background: url("..//images/backgrounds/c_image.jpg") no-repeat;
-    margin-top: 2%;
+.contact h3{
+  text-align: center;
+  padding-top: 40px;
+  font-size: 18px;
+}
+.contact .detail{
+ margin-top: 10px;
+}
+#name{
+  color: white;
+  border: 1px solid white;
+  background-color: transparent;
+  width: 25%;
+  height: 20px;
+}
+#email{
+  width: 25%;
+  color: white;
+  border: 1px solid white;
+  background-color: transparent;
+  margin-left: 30px;
+  height: 20px;
+}
+#message{
+  background-color: transparent;
+  border: 1px solid white;
+  height: 150px;
+  width: 50%;
+  margin-top: 20px;
+}
+#btn{
+  align-items: center;
+  background-color: green;
+  color: #fff;
+  height: 33px;
+  border-radius: 5px;
+ 
+  margin: 10px;
 }
 #footer{
     margin-top: 25px;
@@ -119,36 +174,27 @@
     display: none;
 }
 h1{
-  font-family: 'Caveat', cursive;
+  text-align: center;
   font-size:x-large;
 }
 p{
-  font-family: 'Farsan', cursive;
   font-size:x-large
 }
 h3{
-  font-family: 'Shadows Into Light', cursive;
-  font: size 60px;
+  
   font-size:x-large
 }
 .col-md-4{
   cursor: pointer;
 }
-#contact{
-  text-align: center;
-}
+
 #links{
   text-align: center;
 }
 #what_we_do{
   text-align: center;
 }
-.container-fluid{
-  text-align: center;
-}
-body{
-  background-color:bisque !important;
-}
+
 .mc-field-group{
   text-align: center;
 }
